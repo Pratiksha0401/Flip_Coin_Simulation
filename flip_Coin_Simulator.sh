@@ -4,7 +4,7 @@ T=0
 x=$((RANDOM%2))
 if [ $x -eq $H ]
 then
-        echo "Heads"
+        echo "Head wins"
 else
-        echo "Tails"
+        echo "Tail wins"
 fi
